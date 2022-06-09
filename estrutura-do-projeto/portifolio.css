@@ -1,0 +1,97 @@
+*---------RESET DA PAGINA---------------------*
+
+* {
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #f1e5d6  ;
+  font: 400 1rem   'Indie Flower', cursive;
+  color: #ffcbdb;
+  
+}
+
+header{
+background-color: #e1f1de;
+text-align: center;
+margin: auto;
+padding: auto;
+}
+
+.indroducao{
+  text-align: center;
+}
+
+.menu{
+
+
+
+}
+
+.eu{
+  height:50px;
+  width: 50px;
+}
+
+img {
+  max-width:500%;
+  max-height:500%;
+  
+  border-radius: 50%;
+  display:flex ;
+  justify-content: space-around;
+  
+}
+
+h1{
+ text-decoration-color: blueviolet;
+}
+
+ nav ul{
+ list-style: none;
+ 
+}
+
+a{
+ 
+text-decoration: none;
+color: #FF00FF;
+transition: background-color 2s;
+}
+
+a:hover{
+  background-color: aqua;
+}
+
+h1{
+  text-align: center;
+  color:#8A2BE2;
+}
+
+p{
+  text-align: center;
+  color:#8A2BE2;
+  font-size: 25px;
+}
+section{
+  min-height: 100vh;
+  
+}
+#sobre{
+  color: aqua;
+  font-size: 30px;
+  
+}
+#servico{
+  color:aqua;
+  font-size: 30px;
+  background-color: azure;
+}
+#contato{
+  color:aqua;
+  font-size: 30px;
+  
+}
