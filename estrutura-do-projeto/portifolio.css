@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
 }
+
 html{
   scroll-behavior: smooth;
 }
@@ -11,7 +12,6 @@ body{
   background-color: #f1e5d6  ;
   font: 400 1rem   'Indie Flower', cursive;
   color: #ffcbdb;
-  
 }
 
 header{
@@ -21,8 +21,12 @@ margin: auto;
 padding: auto;
 }
 
-.indroducao{
+#introducao{
+  display: flex;
   text-align: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu{
@@ -32,8 +36,7 @@ padding: auto;
 }
 
 .eu{
-  height:50px;
-  width: 50px;
+
 }
 
 img {
@@ -41,9 +44,7 @@ img {
   max-height:500%;
   
   border-radius: 50%;
-  display:flex ;
   justify-content: space-around;
-  
 }
 
 h1{
