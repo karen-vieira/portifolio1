@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  
 }
 
 html{
@@ -9,6 +10,7 @@ html{
 }
 
 body{
+  padding: 2vh;
   background-color: #f1e5d6  ;
   font: 400 1rem   'Indie Flower', cursive;
   color: #ffcbdb;
@@ -24,19 +26,12 @@ padding: auto;
 #introducao{
   display: flex;
   text-align: center;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .menu{
-
-
-
-}
-
-.eu{
-
 }
 
 img {
@@ -49,9 +44,21 @@ img {
 
 h1{
  text-decoration-color: blueviolet;
+ text-align: center;
+ color:#8A2BE2;
 }
 
- nav ul{
+p{
+  text-align: center;
+  color:#8A2BE2;
+  font-size: 25px;
+}
+section{
+  min-height: 100vh;
+  
+}
+
+nav ul{
  list-style: none;
  
 }
@@ -67,20 +74,11 @@ a:hover{
   background-color: aqua;
 }
 
-h1{
-  text-align: center;
-  color:#8A2BE2;
+div{
+
 }
 
-p{
-  text-align: center;
-  color:#8A2BE2;
-  font-size: 25px;
-}
-section{
-  min-height: 100vh;
-  
-}
+
 #sobre{
   color: aqua;
   font-size: 30px;
@@ -95,4 +93,11 @@ section{
   color:aqua;
   font-size: 30px;
   
+}
+#intro{
+
+}
+
+#avatar{
+
 }
